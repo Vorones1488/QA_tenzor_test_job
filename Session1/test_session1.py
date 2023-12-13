@@ -1,7 +1,6 @@
 from SbisPage import FindHelper
 from TenzorPage import TenzorPageHelper
 from Locator import SbisSeacrhLocators, TenzorSearchLocators
-from time import sleep
 import logging
 
 
