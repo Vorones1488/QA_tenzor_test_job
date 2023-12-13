@@ -4,6 +4,8 @@ from Locator import SbisSeacrhLocators, TenzorSearchLocators
 import logging
 
 
+
+
 def test_sbis(browser):
     sbis_page = FindHelper(browser, SbisSeacrhLocators.LOCATOR_URL)
     sbis_page.go_to_site()

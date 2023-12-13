@@ -4,6 +4,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 
 
+# Базовые функции поиска
 
 class BasePage:
 
