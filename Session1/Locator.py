@@ -5,6 +5,7 @@ class SbisSeacrhLocators:
     LOCATOR_SERCH_BANNER_TENZOR = (By.CSS_SELECTOR, '[alt^="Раз"]')
     LOCATOR_TABS = 1
     LOCATOR_URL = "https://sbis.ru/"
+    LOCATOR_SBIS_WAIT = (By.XPATH, '//*[@id="wasaby-content"]/div/div/div[2]/div[1]/div[3]/div[2]/div[1]/div/noindex')
 
 
 class TenzorSearchLocators:
